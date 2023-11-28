@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+   
+.nav_items li {
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover a {
+    color: #ff0000;
+}
